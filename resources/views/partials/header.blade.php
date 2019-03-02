@@ -20,7 +20,7 @@
           <a class="dropdown-item" href="#"><i class="fas fa-users-cog"></i> User account</a>
           <a class="dropdown-item" href="#"><i class="fas fa-user-circle"></i> Login</a>
 <!--          <div class="dropdown-divider"></div>-->
-          <a class="dropdown-item" href="#"><i class="fas fa-user-plus"></i> Register</a>
+          <a class="dropdown-item" href="{{ route('user.signup') }}"><i class="fas fa-user-plus"></i> Register</a>
         </div>
       </li>
 <!--      <li class="nav-item">
